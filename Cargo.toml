@@ -12,6 +12,11 @@ path = "src/resize/main.rs"
 name = "crop-avatar"
 path = "src/crop/main.rs"
 
+[[bin]]
+name = "compress-img"
+path = "src/compress/main.rs"
+
 [dependencies]
 glob = "0.3.0"
 image = "0.24.2"
+image_compressor = "1.2.2"
